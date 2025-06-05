@@ -24,7 +24,7 @@ cd your-repo
 ## 2. Launch the environment
 bash
 <pre> docker-compose up -d </pre>
-⏳ Wait a few moments while Docker builds the image and starts the services. Once ready, open your browser and go to:
+
 
 ## 3. Configure DNS and Domain:
 
@@ -45,8 +45,9 @@ Fill in the domain name (e.g., openwebui.hello.duckdns.org).
 Set the scheme to HTTP (default), enable Websockets support and point to your Docker IP (if docker with open-webui is running on the same computer as NGINX manager, this will be the same IP as earlier (example: 192.168.0.6)
 Select the SSL certificate generated earlier, force SSL, and enable HTTP/2.
 
+⏳ Wait a few moments while Docker builds the image and starts the services. Once ready, open your browser and go to:
 browser
-<pre> http://localhost </pre>
+<pre> http://server_ip </pre>
 ✨ Key Features
 ✅ Automated and transparent setup
 
