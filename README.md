@@ -63,8 +63,12 @@ browser
 
 🔄 Easily customizable for a wide range of use cases
 
-
-
+## 4. Add OpenAI API key (optional):
+- Paste your OpenAI API key in the "esempio.env" file
+- Rename the file:
+```bash
+mv esempio.env .env
+```
 
 # 📚 Requirements
 - Docker (v20+ recommended)
