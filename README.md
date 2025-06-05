@@ -18,12 +18,17 @@ Our mission is to deliver a plug-and-play tool for developers, researchers, or e
 # 🚀 Getting Started
 ## 1. Clone the repository
 
-bash
-<pre> git clone https://github.com/SalvatorePassarelli/GruppoB </pre>
-cd your-repo
+```bash
+
+git clone https://github.com/SalvatorePassarelli/GruppoB.git
+```
+```bash
+cd GruppoB
+```
 ## 2. Launch the environment
-bash
-<pre> docker-compose up -d </pre>
+```bash
+docker-compose up -d
+```
 
 
 ## 3. Configure DNS and Domain:
@@ -47,7 +52,8 @@ Select the SSL certificate generated earlier, force SSL, and enable HTTP/2.
 
 ⏳ Wait a few moments while Docker builds the image and starts the services. Once ready, open your browser and go to:
 browser
-<pre> http://server_ip </pre>
+``` http://server_ip
+```
 ✨ Key Features
 ✅ Automated and transparent setup
 
