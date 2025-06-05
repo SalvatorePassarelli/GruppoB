@@ -35,16 +35,20 @@ docker-compose up -d
 
 Log in to your domain provider (e.g., DuckDNS) and create a domain.
 Point the domain to your proxy’s local IP (e.g., 192.168.0.6).
+
 If using DuckDNS, get an API token from their dashboard.
+
 Here is a simple example how it's done in https://www.duckdns.org/domains :
-Set Up SSL Certificates:
+
+# Set Up SSL Certificates:
 Access Nginx Proxy Manager at http://server_ip:81. For example: 192.168.0.6:81
 Log in with the default credentials (admin@example.com / changeme). Change them as asked.
 Go to SSL Certificates → Add SSL Certificate → Let's Encrypt.
 Write your email and domain name you got from DuckDNS. One domain name contains an asterisk and another does not. Example: *.hello.duckdns.org and hello.duckdns.org.
 Select Use a DNS challenge, choose DuckDNS, and paste your API token. example: dns_duckdns_token=f4e2a1b9-c78d-e593-b0d7-67f2e1c9a5b8
 Agree to Let’s Encrypt terms and save. Change propagation time if needed (120 seconds).
-Create Proxy Hosts:
+
+# Create Proxy Hosts:
 For each service (e.g., openwebui, nextcloud), go to Hosts → Proxy Hosts → Add Proxy Host.
 Fill in the domain name (e.g., openwebui.hello.duckdns.org).
 Set the scheme to HTTP (default), enable Websockets support and point to your Docker IP (if docker with open-webui is running on the same computer as NGINX manager, this will be the same IP as earlier (example: 192.168.0.6)
@@ -54,6 +58,7 @@ Select the SSL certificate generated earlier, force SSL, and enable HTTP/2.
 browser
 ``` http://server_ip
 ```
+
 ✨ Key Features
 ✅ Automated and transparent setup
 
