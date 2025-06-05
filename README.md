@@ -67,17 +67,18 @@ browser
 
 
 # 📚 Requirements
-Docker (v20+ recommended)
-Docker Compose
-Internet connection for initial model download
+- Docker (v20+ recommended)
+- Docker Compose
+- Internet connection for initial model download
 
 # 🤝 Contributing🛠️
 Project developed in collaboration with:
 # 🧑‍💻Students of CyberHackademy
-# 📬 Contact
-🧑‍💻https://github.com/ldcostanzo
-🧑‍💻https://github.com/giovannids100
-🧑‍💻https://github.com/MattiaScotti/
+### 📬 Contact
+- 🧑‍💻https://github.com/ldcostanzo
+- 🧑‍💻https://github.com/giovannids100
+- 🧑‍💻https://github.com/MattiaScotti/
+  
 A collective effort combining learning, creativity, and cutting-edge tech. 🚀
 
 
